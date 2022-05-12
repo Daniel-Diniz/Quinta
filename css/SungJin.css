@@ -1,0 +1,193 @@
+:root{
+    --cor-fundo: rgb(228, 173, 45);
+    --cor-hover: rgb(241, 245, 247);
+    --cor-primaria : rgb(15, 15, 15);
+ }
+ 
+ .dp-menu ul{
+   list-style-type: none;
+   padding: 0;
+   
+   
+ }
+ 
+ .dp-menu ul{
+   background-color:  var(--cor-fundo);
+ }
+ 
+ .dp-menu ul li{
+   display: inline;
+   position: relative
+ }
+ 
+ .dp-menu ul li a{
+   color: var(--cor-primaria);
+   text-decoration: none;
+   display: inline-block;
+   padding: 10px;
+ }
+ 
+ .dp-menu ul li a:hover{
+   background-color:  var(--cor-hover);  
+ }
+ 
+ .dp-menu ul ul {
+   display: none;
+   left:0;
+   position: absolute;  
+ }
+ 
+ .dp-menu ul li:hover ul{
+   display: block;    
+ }
+ 
+ .dp-menu ul ul {
+   width: 150px;
+ }
+ 
+ .dp-menu ul ul li a {
+   display: block;  
+ }
+
+body{
+    background-color: black;
+    margin: 0px;
+    color: white;
+    font-family: Courier;
+}
+a{
+  display: inline-;
+}
+body > p{
+    font-size: 18px;
+}
+.woo{
+  background-repeat: no - repeat;
+
+  background-size: cover;
+  
+  display: inline-block;
+width: 30vh; 
+left: 10px;
+}
+
+a{
+  text-decoration: none;  
+  color: rgb(173, 154, 118);
+}
+
+.lang{
+  background-repeat: no - repeat;
+
+  background-size: cover;
+  
+  display: inline-block;
+width: 60vh; 
+left: 10px;
+}
+
+
+.pp{
+  background-repeat: no - repeat;
+
+  background-size: cover;
+  
+  
+width: 50vh; 
+left: 10px;
+}
+
+.pp1{
+  background-repeat: no - repeat;
+
+  background-size: cover;
+  
+  position: relative;
+width: 50vh; 
+height: 41vh;
+max-width: 55;
+}
+
+.container{
+  width: 150vh;
+  margin: auto;
+  height: 50vh;
+}
+
+.container img{
+  width: 100%;
+}
+
+.baixoEsquerda{
+  position: absolute;
+  bottom:0;
+  left: 200px;
+ 
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.baixoDireita{
+  position: absolute;
+  bottom:0;
+  right: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+
+.leveling{
+  font-size: 16px;
+  background-color: black;
+  margin: 0px;
+  color: whitesmoke;
+  font-family: Courier;
+  background: url('/imagem/Torra-escura-café.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Dan{
+  width: 80vh;
+}
+
+.stilo-formulario {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textos {
+  
+}
+
+.solo{
+  font-family: Optima;
+  font-size: 20px;
+  color: white;
+  width: 300px;
+  display: inline-block;
+}
+
+form > label{
+  margin: 5px;
+}
+
+.botao-enviar {
+  border: 1px solid yellow;
+  background-color: yellow;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.div-imagens {
+  margin: 20px 0px;
+}
+
+.imagens {
+  width: 300px;
+  height: 300px;
+
+}
